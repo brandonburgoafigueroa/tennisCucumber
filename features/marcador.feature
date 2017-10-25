@@ -40,6 +40,15 @@ Scenario:
             And     presiono el boton "Punto para B"
             And     presiono el boton "Reset"
             Then    Deberia mostrar marcador "0-Iguales"
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Reset"
+            Then    Deberia mostrar marcador "0-Iguales"
+
 
 Scenario:
             Given   Visito la pagina de marcador
