@@ -50,7 +50,7 @@ class Tennis
         end
     end
     def ganoAlguien
-        if ganoA
+        if ganoA || ganoB
             return true
         else
             return false
@@ -67,6 +67,13 @@ class Tennis
     def ganoA
         if @puntosDeJugadorA>3 && (@puntosDeJugadorB<3 || @puntosDeJugadorA-2==@puntosDeJugadorB)
            return true 
+        else
+            return false
+        end
+    end
+    def ganoB
+        if @puntosDeJugadorB>3 && (@puntosDeJugadorA<3 || @puntosDeJugadorB-2==@puntosDeJugadorA)
+            return true
         else
             return false
         end
