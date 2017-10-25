@@ -4,3 +4,4 @@ Feature:    Como jugador
 Scenario:
             Given   Visito la pagina de marcador
             Then    Deberia mostrar marcador de jugador "0"
+

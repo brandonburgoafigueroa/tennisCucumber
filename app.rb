@@ -5,6 +5,6 @@ get '/' do
 end
 
 get '/marcador' do
-    "0"
+  erb :marcador
 end
 

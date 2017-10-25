@@ -5,3 +5,4 @@ Given("Visito la pagina de marcador") do
   Then("Deberia mostrar marcador de jugador {string}") do |string|
     last_response.body.should =~ /#{string}/m
   end
+  
