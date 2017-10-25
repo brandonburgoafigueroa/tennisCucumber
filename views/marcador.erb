@@ -1,13 +1,24 @@
-<form method='post' action='/PuntoA'>
-<h2>Jugador A</h2>
-<h2><%= $PuntosA;%></h2>
-<input type='submit' value='Punto para A'>
-</form>
-<form method='post' action='/PuntoB'>
-<h2>Jugador B</h2>
-<h2><%= $PuntosB;%></h2>
-<input type='submit' value='Punto para B'>
-</form>
+
+
+<table>
+  <tr>
+    <th>
+        <form method='post' action='/PuntoA'>
+        <h2>Jugador A</h2>
+        <input type='submit' value='Punto para A'>
+        </form>
+    </th>
+    <th>
+        ||
+    </th>
+    <th>
+        <form method='post' action='/PuntoB'>
+        <h2>Jugador B</h2>
+        <input type='submit' value='Punto para B'>
+        </form>
+    </th> 
+   
+</table>
 
 <h2><%= $tennis.score();%></h2>
 
