@@ -48,3 +48,6 @@ D, [2017-10-24T23:35:08.799611 #13216] DEBUG -- : REQUESTING PAGE: GET /marcador
 D, [2017-10-24T23:35:08.886170 #13216] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
 D, [2017-10-24T23:35:45.842676 #7452] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
 D, [2017-10-24T23:35:45.913723 #7452] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:37:07.029042 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:37:07.182643 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:37:07.189147 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
