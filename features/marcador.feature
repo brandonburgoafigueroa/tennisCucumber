@@ -28,8 +28,15 @@ Scenario:
             Then    Deberia mostrar marcador de jugador A "30"
 Scenario:
             Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A" cuando ya habia anotado un punto
+            Then    Deberia mostrar marcador de jugador A "40"
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A" cuando ya habia anotado un punto
+            Then    Deberia mostrar marcador de jugador A "Jugador A wins"
+Scenario:
+            Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A"
-            
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para B"
