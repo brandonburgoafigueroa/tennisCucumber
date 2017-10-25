@@ -21,19 +21,26 @@ Scenario:
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A" cuando comenzo la partida
-            Then    Deberia mostrar marcador de jugador A "5-0"
+            Then    Deberia mostrar marcador "5-0"
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A" cuando ya habia anotado un punto
-            Then    Deberia mostrar marcador de jugador A "30-0"
+            Then    Deberia mostrar marcador "30-0"
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A" cuando ya habia anotado un punto
-            Then    Deberia mostrar marcador de jugador A "40-0"
+            Then    Deberia mostrar marcador "40-0"
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A" cuando ya habia anotado un punto
-            Then    Deberia mostrar marcador de jugador A "Jugador A wins"
+            Then    Deberia mostrar marcador "Jugador A wins"
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Reset"
+            Then    Deberia mostrar marcador "0-Iguales"
+
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A"
