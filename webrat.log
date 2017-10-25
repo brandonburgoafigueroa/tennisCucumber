@@ -200,3 +200,16 @@ D, [2017-10-25T00:01:14.383838 #804] DEBUG -- : REQUESTING PAGE: GET /marcador w
 D, [2017-10-25T00:01:14.388839 #804] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}
 D, [2017-10-25T00:01:14.395345 #804] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
 D, [2017-10-25T00:01:14.399347 #804] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}
+D, [2017-10-25T00:37:20.710698 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.790279 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.795284 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.795284 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.795284 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.810912 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.820650 #9692] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}
+D, [2017-10-25T00:37:20.831221 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.835224 #9692] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}
+D, [2017-10-25T00:37:20.850235 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.855236 #9692] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}
+D, [2017-10-25T00:37:20.862241 #9692] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-25T00:37:20.867246 #9692] DEBUG -- : REQUESTING PAGE: POST /marcador with {} and HTTP headers {"HTTP_REFERER"=>"/marcador"}

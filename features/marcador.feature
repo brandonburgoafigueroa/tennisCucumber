@@ -31,3 +31,8 @@ Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A" cuando comenzo la partida
             Then    Deberia mostrar marcador de jugador A "5"
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A" cuando comenzo la partida
+            Then    Deberia mostrar marcador de jugador A "5"
+            And     Deberia mostrar marcador de jugador B "0" 
