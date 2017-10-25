@@ -1,17 +1,19 @@
 require 'sinatra'
+require './lib/bin/tennis.rb'
+
+$PuntosA=0
 
 get '/' do
     "Hello World"
 end
 
 get '/marcador' do
-    @PuntosA=0
-    @PuntosB=0
+    
   erb :marcador
 end
 
 post '/marcador' do
-    @PuntosA=5
+    $PuntosA=$PuntosA+1
     @PuntosB=0
     erb :marcador
   end
