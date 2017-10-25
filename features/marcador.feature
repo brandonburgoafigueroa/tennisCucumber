@@ -64,6 +64,19 @@ Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para B" cuando ya habia anotado cuatro puntos
             Then    Deberia mostrar marcador "Jugador B wins"
+
+Scenario:
+            Given   Visito la pagina del marcador
+            When    presiono el boton "Reset"
+            And     presiono el boton "Punto para A"
+            And     presiono el boton "Punto para A"
+            And     presiono el boton "Punto para A"
+            And     presiono el boton "Punto para A"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Punto para B"
+            And     presiono el boton "Punto para B"
+            Then    Deberia mostrar marcador "Deuce"
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A"

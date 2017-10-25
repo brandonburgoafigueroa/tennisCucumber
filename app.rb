@@ -32,4 +32,4 @@ end
 post '/Reset' do
     $tennis.iniciarJuego
     erb :marcador 
-end
+end 
