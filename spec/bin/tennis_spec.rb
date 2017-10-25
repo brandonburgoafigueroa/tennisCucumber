@@ -30,6 +30,10 @@ describe Tennis do
         @tennis.anotarPunto("A")
         expect(@tennis.score()).to eq "Jugador A wins"
     end
-       
+    it "Si jugador A anota 1 vez al igual que jugador B resultado 15-Iguales" do
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("B")
+        expect(@tennis.score()).to eq "15-Iguales"
+    end
 end
 
