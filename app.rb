@@ -14,7 +14,15 @@ get '/marcador' do
 end
 
 post '/marcador' do
+    erb :marcador
+end
+
+post '/PuntoA' do
     $PuntosA=$PuntosA+1
+    erb :marcador
+end
+
+post '/PuntoB' do
     $PuntosB=$PuntosB+1
     erb :marcador
-  end
+end
