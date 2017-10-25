@@ -13,14 +13,20 @@ class Tennis
             @puntosDeJugadorB += 1
         end
     end
+
     def score()
         if ganoAlguien
             respuesta=mostrarGanador
         else
-            return mostrarPuntaje
+            if es40iguales
+                return "Deuce"
+            else
+                return mostrarPuntaje
+            end
         end
        
     end
+
     def mostrarPuntaje
         if sonIguales
             return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales" 
@@ -53,6 +59,13 @@ class Tennis
     def ganoA
         if @puntosDeJugadorA>3 && (@puntosDeJugadorB<3 || @puntosDeJugadorA-2==@puntosDeJugadorB)
            return true 
+        else
+            return false
+        end
+    end
+    def es40iguales
+        if (@puntosDeJugadorA==3 && @puntosDeJugadorB==3)
+            return true
         else
             return false
         end
