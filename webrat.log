@@ -51,3 +51,11 @@ D, [2017-10-24T23:35:45.913723 #7452] DEBUG -- : REQUESTING PAGE: GET /marcador 
 D, [2017-10-24T23:37:07.029042 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
 D, [2017-10-24T23:37:07.182643 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
 D, [2017-10-24T23:37:07.189147 #6920] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:12.141781 #9036] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:12.221832 #9036] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:12.228337 #9036] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:12.235344 #9036] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:47.733954 #3968] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:47.804001 #3968] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:47.808504 #3968] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}
+D, [2017-10-24T23:38:47.814008 #3968] DEBUG -- : REQUESTING PAGE: GET /marcador with {} and HTTP headers {}

@@ -12,3 +12,6 @@ Scenario:
             Given   Visito la pagina del marcador
             Then    Deberia mostrar nombre de jugador "Jugador A"
             And     Deberia mostrar marcador de jugador "0"
+Scenario:
+            Given   Visito la pagina del marcador
+            Then    Deberia mostrar nombre de jugador "Jugador B"
