@@ -31,5 +31,5 @@ end
 
 post '/Reset' do
     $tennis.iniciarJuego
-    erb :marcador
+    erb :marcador 
 end

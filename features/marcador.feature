@@ -58,6 +58,14 @@ Scenario:
             Then    Deberia mostrar marcador "0-30"
 Scenario:
             Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
+            Then    Deberia mostrar marcador "0-40"
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
+            Then    Deberia mostrar marcador "Jugador B wins"
+Scenario:
+            Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A"
 Scenario:
             Given   Visito la pagina de marcador
