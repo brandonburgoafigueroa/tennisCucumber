@@ -1,0 +1,6 @@
+# Logfile created on 2017-10-24 23:09:24 -0400 by logger.rb/56815
+D, [2017-10-24T23:09:24.090971 #14896] DEBUG -- : REQUESTING PAGE: GET /marcador/ with {} and HTTP headers {}
+D, [2017-10-24T23:09:44.592040 #14872] DEBUG -- : REQUESTING PAGE: GET /marcador/ with {} and HTTP headers {}
+D, [2017-10-24T23:10:15.293537 #10516] DEBUG -- : REQUESTING PAGE: GET /marcador/ with {} and HTTP headers {}
+D, [2017-10-24T23:11:12.003374 #4188] DEBUG -- : REQUESTING PAGE: GET /marcador/ with {} and HTTP headers {}
+D, [2017-10-24T23:11:43.930403 #8052] DEBUG -- : REQUESTING PAGE: GET /marcador/ with {} and HTTP headers {}
