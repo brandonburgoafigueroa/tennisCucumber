@@ -18,11 +18,7 @@ class Tennis
         if ganoAlguien
             respuesta=mostrarGanador
         else
-            if es40iguales
-                return mostrarPuntaje
-            else
-                return mostrarPuntaje
-            end
+           return mostrarPuntaje
         end
        
     end
