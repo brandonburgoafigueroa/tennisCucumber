@@ -24,15 +24,15 @@ Scenario:
             Then    Deberia mostrar marcador "5-0"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para A" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para A" cuando ya habia anotado dos puntos
             Then    Deberia mostrar marcador "30-0"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para A" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para A" cuando ya habia anotado tres puntos
             Then    Deberia mostrar marcador "40-0"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para A" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para A" cuando ya habia anotado cuatro puntos
             Then    Deberia mostrar marcador "Jugador A wins"
 Scenario:
             Given   Visito la pagina de marcador
@@ -50,19 +50,19 @@ Scenario:
             Then    Deberia mostrar marcador "0-Iguales"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para B" cuando comenzo la partida
+            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
             Then    Deberia mostrar marcador "0-15"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para B" cuando ya habia anotado dos puntos
             Then    Deberia mostrar marcador "0-30"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para B" cuando ya habia anotado tres puntos
             Then    Deberia mostrar marcador "0-40"
 Scenario:
             Given   Visito la pagina de marcador
-            When    presiono el boton "Punto para B" cuando ya habia anotado un punto
+            When    presiono el boton "Punto para B" cuando ya habia anotado cuatro puntos
             Then    Deberia mostrar marcador "Jugador B wins"
 Scenario:
             Given   Visito la pagina de marcador

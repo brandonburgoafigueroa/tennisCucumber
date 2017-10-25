@@ -28,3 +28,14 @@ Given("Visito la pagina de marcador") do
   Then("Deberia mostrar marcador {string}") do |string|
     last_response.body.should =~ /#{string}/m
   end
+  When("presiono el boton {string} cuando ya habia anotado dos puntos") do |string|
+    click_button(string)
+  end
+  
+  When("presiono el boton {string} cuando ya habia anotado tres puntos") do |string|
+    click_button(string)
+  end
+  
+  When("presiono el boton {string} cuando ya habia anotado cuatro puntos") do |string|
+    click_button(string)
+  end
