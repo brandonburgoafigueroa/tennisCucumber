@@ -22,3 +22,7 @@ Scenario:
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para A"
+            
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para B"
