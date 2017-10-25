@@ -26,3 +26,8 @@ Scenario:
 Scenario:
             Given   Visito la pagina de marcador
             When    presiono el boton "Punto para B"
+
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A" cuando comenzo la partida
+            Then    Deberia mostrar marcador de jugador A "5"

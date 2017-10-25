@@ -19,3 +19,6 @@ Given("Visito la pagina de marcador") do
   When("presiono el boton {string}") do |string|
     click_button(string)
   end
+  When("presiono el boton {string} cuando comenzo la partida") do |string|
+    click_button(string)
+  end
