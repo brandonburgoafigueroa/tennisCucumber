@@ -17,5 +17,12 @@ describe Tennis do
         @tennis.anotarPunto("A")
         expect(@tennis.score()).to eq "30-0"
     end
+    it "Si jugador A anota 3 veces resultado 40-0" do
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        expect(@tennis.score()).to eq "40-0"
+    end
+       
 end
 
