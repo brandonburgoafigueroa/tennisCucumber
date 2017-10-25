@@ -14,6 +14,20 @@ class Tennis
         end
     end
     def score()
-        return "0-Iguales"
+        return mostrarPuntaje
+    end
+    def mostrarPuntaje
+        if sonIguales
+            return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales"
+        else
+            return @tablaPuntaje[@puntosDeJugadorA]+"-"+@tablaPuntaje[@puntosDeJugadorB]
+        end
+    end
+    def sonIguales
+        if (@puntosDeJugadorA==@puntosDeJugadorB)
+            return true
+        else
+            return false
+        end
     end
 end

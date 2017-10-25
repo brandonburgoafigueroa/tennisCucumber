@@ -7,6 +7,10 @@ describe Tennis do
     end
     it "Si comenzo el juego debe devolver el resultado 0-Iguales" do
         expect(@tennis.score()).to eq "0-Iguales"
-       end
+    end
+    it "Si jugador A anota 1 vez resultado 15-0" do
+       @tennis.anotarPunto("A")
+       expect(@tennis.score()).to eq "15-0"
+    end
 end
 
