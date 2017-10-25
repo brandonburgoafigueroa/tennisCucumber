@@ -24,14 +24,22 @@ class Tennis
     end
 
     def mostrarPuntaje
-        if sonIguales
-            if es40iguales
-                return "Deuce"
-            else
-                return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales" 
-            end
+        if ganoAlguien
+            return mostrarGanador
         else
-            return @tablaPuntaje[@puntosDeJugadorA]+"-"+@tablaPuntaje[@puntosDeJugadorB]
+            if anotoDespuesDeDeuce
+                return mostrarJugadorEnVentaja
+            else
+                if es40iguales
+                    return "Deuce"
+                else
+                    if sonIguales
+                        return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales"
+                    else
+                        return @tablaPuntaje[@puntosDeJugadorA]+"-"+@tablaPuntaje[@puntosDeJugadorB]
+                    end
+                end
+            end
         end
     end
     def sonIguales
@@ -68,6 +76,37 @@ class Tennis
             return true
         else
             return false
+        end
+    end
+    def anotoDespuesDeDeuce
+        if menor>=3
+            return true
+        else
+            return false
+        end
+    end
+    def mayor
+        if @puntosDeJugadorA>@puntosDeJugadorB
+            return @puntosDeJugadorA
+        else
+            return @puntosDeJugadorB
+        end
+    end
+    def menor
+        if @puntosDeJugadorA>@puntosDeJugadorB
+            return @puntosDeJugadorB
+        else
+            return @puntosDeJugadorA
+        end
+    end
+    def mostrarJugadorEnVentaja
+        if @puntosDeJugadorA>@puntosDeJugadorB
+            return "Jugador A en ventaja"
+        else if @puntosDeJugadorA<@puntosDeJugadorB
+            return "Jugador B en ventaja"
+            else
+                return "Deuce"
+        end
         end
     end
 end
