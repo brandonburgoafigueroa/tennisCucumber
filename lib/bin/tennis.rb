@@ -18,9 +18,9 @@ class Tennis
     end
     def mostrarPuntaje
         if sonIguales
-            return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales"
+            return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales" 
         else
-            return @tablaPuntaje[@puntosDeJugadorA]+"-"+@tablaPuntaje[@puntosDeJugadorB]
+            return @tablaPuntaje[@puntosDeJugadorA]+"-"+"0"
         end
     end
     def sonIguales
