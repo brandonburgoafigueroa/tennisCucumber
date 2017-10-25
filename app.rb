@@ -3,6 +3,8 @@ require './lib/bin/tennis.rb'
 
 $PuntosA=0
 $PuntosB=0
+$tennis=Tennis.new
+$tennis.iniciarJuego
 
 get '/' do
     "Hello World"
@@ -18,11 +20,11 @@ post '/marcador' do
 end
 
 post '/PuntoA' do
-    $PuntosA=$PuntosA+1
+    $tennis.anotarPunto("A")
     erb :marcador
 end
 
 post '/PuntoB' do
-    $PuntosB=$PuntosB+1
+    $PuntosB=0
     erb :marcador
 end
