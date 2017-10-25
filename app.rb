@@ -28,3 +28,8 @@ post '/PuntoB' do
     $PuntosB=0
     erb :marcador
 end
+
+post '/Reset' do
+    $tennis.iniciarJuego
+    erb :marcador
+end
