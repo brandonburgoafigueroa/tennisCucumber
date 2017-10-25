@@ -25,7 +25,7 @@ post '/PuntoA' do
 end
 
 post '/PuntoB' do
-    $PuntosB=0
+    $tennis.anotarPunto("B")
     erb :marcador
 end
 
