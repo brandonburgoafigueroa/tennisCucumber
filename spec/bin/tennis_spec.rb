@@ -23,6 +23,13 @@ describe Tennis do
         @tennis.anotarPunto("A")
         expect(@tennis.score()).to eq "40-0"
     end
+    it "Si jugador A gana el juego debe mostrar jugador A wins" do
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        expect(@tennis.score()).to eq "Jugador A wins"
+    end
        
 end
 
