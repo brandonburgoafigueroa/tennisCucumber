@@ -2,7 +2,6 @@ language: ruby
 
 rvm:
   - 2.2
-  - 2.0.0-p247
 script:
   - cucumber
   - rspec
