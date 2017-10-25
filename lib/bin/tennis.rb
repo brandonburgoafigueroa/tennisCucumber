@@ -19,7 +19,7 @@ class Tennis
             respuesta=mostrarGanador
         else
             if es40iguales
-                return "Deuce"
+                return mostrarPuntaje
             else
                 return mostrarPuntaje
             end
@@ -29,7 +29,11 @@ class Tennis
 
     def mostrarPuntaje
         if sonIguales
-            return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales" 
+            if es40iguales
+                return "Deuce"
+            else
+                return @tablaPuntaje[@puntosDeJugadorA]+"-Iguales" 
+            end
         else
             return @tablaPuntaje[@puntosDeJugadorA]+"-"+@tablaPuntaje[@puntosDeJugadorB]
         end
