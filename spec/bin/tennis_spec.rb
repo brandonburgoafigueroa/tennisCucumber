@@ -61,6 +61,16 @@ describe Tennis do
         @tennis.anotarPunto("B")
         @tennis.anotarPunto("B")
         expect(@tennis.score()).to eq "Jugador A en ventaja"
-       end
+    end
+    it "Si jugador A anota 3 veces y el jugador B 4 veces debe mostrar Jugador B en ventaja" do
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("A")
+        @tennis.anotarPunto("B")
+        @tennis.anotarPunto("B")
+        @tennis.anotarPunto("B")
+        @tennis.anotarPunto("B")
+        expect(@tennis.score()).to eq "Jugador B en ventaja"
+    end
 end
 
