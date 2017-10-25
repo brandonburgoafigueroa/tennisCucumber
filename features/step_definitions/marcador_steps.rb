@@ -16,3 +16,6 @@ Given("Visito la pagina de marcador") do
   Then("Deberia mostrar marcador de jugador B {string}") do |string|
     last_response.body.should =~ /#{string}/m
   end
+  When("presiono el boton {string}") do |string|
+    click_button(string)
+  end

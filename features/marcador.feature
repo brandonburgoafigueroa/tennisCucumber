@@ -18,3 +18,7 @@ Scenario:
 Scenario:
             Given   Visito la pagina de marcador
             Then    Deberia mostrar marcador de jugador B "0"
+
+Scenario:
+            Given   Visito la pagina de marcador
+            When    presiono el boton "Punto para A"
